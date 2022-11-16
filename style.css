@@ -31,6 +31,9 @@
   
   /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
   div.content {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    text-align: relative;
     margin-left: 200px;
     padding: 1px 16px;
     height: 1000px;
