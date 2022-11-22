@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #000000;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -12,21 +12,21 @@
   /* Sidebar links */
   .sidebar a {
     display: block;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 16px;
     text-decoration: none;
   }
   
   /* Active/current link */
   .sidebar a.active {
-    background-color: #dd00ff;
+    background-color: #000000;
     color: white;
   }
   
   /* Links on mouse-over */
-  .sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+  .sidebar a:hover {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
   }
   
   /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
